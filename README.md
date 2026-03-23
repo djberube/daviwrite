@@ -1,3 +1,8 @@
+# Personal Fork Notice
+
+This repository is a personal fork of OVIWrite. The upstream project is maintained at https://github.com/MiragianCycle/OVIWrite.
+
+This fork contains personal tweaks and may diverge from upstream. If you’re looking for the original project, issues, documentation, and releases, please visit the upstream repository linked above.
 
 # **2025 Update: Project Pause And Call for Maintainers**
 

@@ -31,3 +31,6 @@ keymap.set("n", "<leader>fzl", ":FzfLua files<CR>", { noremap = true, silent = t
 keymap.set("n", "<leader>fzg", ":FzfLua live_grep<CR>", { noremap = true, silent = true})
 keymap.set("n", "<leader>fzm", ":FzfLua marks<CR>", { noremap = true, silent = true})
 
+-- Buffer navigation with Tab
+keymap.set("n", "<Tab>", ":bnext<CR>", { noremap = true, silent = true })
+keymap.set("n", "<S-Tab>", ":bprevious<CR>", { noremap = true, silent = true })
