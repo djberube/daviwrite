@@ -7,6 +7,7 @@ local opts = {
 	},
 
 	automatic_installation = true,
+	automatic_enable = { enabled = false },
 }
 
 return {
