@@ -122,14 +122,6 @@ return {
       capabilities = capabilities,
       on_attach = on_attach,
     })
-    -
-    -- configure Grammarly server
-    lspconfig["grammarly-languageserver"].setup({
-      capabilities = capabilities,
-      on_attach = on_attach,
-    })
-
-
 
 
     -- configure prisma orm server

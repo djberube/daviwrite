@@ -14,6 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require('config.globals')
 require('config.keymaps')
 require('config.options')
+require('modules.writer_templates')
 
 -- This is for an experimental plugin
 --

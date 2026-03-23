@@ -4,9 +4,30 @@ return {
 	opts = {
 		routes = {
 			{
-				view = "notify",
+				view = "mini",
 				filter = { event = "msg_showmode" },
 			},
+			{
+				filter = {
+					event = "notify",
+				},
+				opts = { skip = true },
+			},
+			{
+				filter = {
+					event = "msg_show",
+					kind = "",
+				},
+				opts = { skip = true },
+			},
+		},
+		notify = {
+			enabled = false,
+		},
+		messages = {
+			view = "mini",
+			view_error = "mini",
+			view_warn = "mini",
 		},
 		lsp = {
 			-- override markdown rendering so that **cmp** and other plugins use **Treesitter**
